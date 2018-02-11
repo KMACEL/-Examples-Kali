@@ -1,0 +1,14 @@
+#! bin/bash
+
+# Open Firefox and enter "about:config"
+# Search media.peerconnection.enabled and value set false
+
+# Download VPN : https://www.vpnbook.com/ 
+wget https://www.vpnbook.com/free-openvpn-account/VPNBook.com-OpenVPN-US1.zip
+unzip VPNBook.com-OpenVPN-US1.zip
+
+openvpn --config vpnbook-us1-tcp443.ovpn
+# Username: vpnbook
+# Password: x98pc7gi
+# Initialization Sequence Completed
+# Control https://www.dnsleaktest.com/results.html

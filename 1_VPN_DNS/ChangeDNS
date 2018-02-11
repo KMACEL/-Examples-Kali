@@ -1,0 +1,14 @@
+#! /bin/bash
+#DNS Settings File Control : Connection Point.  
+cat /etc/resolv.conf
+
+# #prepend domain-name-servers 127.0.0.1;
+# Go it https://www.lifewire.com/free-and-public-dns-servers-2626062
+# Change
+# prepend domain-name-servers 209.244.0.3,64.6.64.6,8.8.8.8;
+
+# Restart Network-Manger
+service network-manager restart
+
+# Control Change
+cat /etc/resolv.conf
