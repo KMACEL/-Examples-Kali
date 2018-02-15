@@ -1,0 +1,13 @@
+
+# Install Tor
+sudo apt-get install tor -y
+
+# Download Tor Browser
+wget https://www.torproject.org/dist/torbrowser/7.5/tor-browser-linux64-7.5_en-US.tar.xz
+
+# Open : tor-browser_en-US/Browser/start-tor-browser
+# Sarch Root & Delete "exit 1"
+# chown -hR root tor-browser_en-US/
+# Open TorBrowser
+# Security Sttings >> Safer
+# Go : https://thehiddenwiki.org/

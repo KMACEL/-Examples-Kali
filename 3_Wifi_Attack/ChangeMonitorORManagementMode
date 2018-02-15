@@ -1,0 +1,21 @@
+# Monitoring Mode :
+# Path 1 :
+airmon-ng start wlan0
+
+# Path 2 :
+ifconfig wlan0 down
+iwconfig wlan0 mode monitor
+ifconfig wlan0 up
+
+#Test
+ifconfig
+iwconfig
+# Managed Mode :
+# Path 1 :
+airmon-ng stop wlan0mon
+
+#Path 2 :
+ifconfig wlan0 down
+iwconfig wlan0 mode managed
+ifconfig wlan0 up
+

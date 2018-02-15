@@ -1,0 +1,5 @@
+#! /bin/bash
+
+ifconfig wlan0 down
+macchanger --random wlan0
+ifconfig wlan0 up

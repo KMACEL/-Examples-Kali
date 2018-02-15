@@ -9,6 +9,6 @@ unzip VPNBook.com-OpenVPN-US1.zip
 
 openvpn --config vpnbook-us1-tcp443.ovpn
 # Username: vpnbook
-# Password: x98pc7gi
+# Password: x98pc7g
 # Initialization Sequence Completed
 # Control https://www.dnsleaktest.com/results.html
